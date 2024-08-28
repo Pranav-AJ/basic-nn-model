@@ -94,6 +94,9 @@ model.compile(optimizer='rmsprop',loss='mse')
 
 model.fit(X_train,y_train,epochs=2000)
 
+loss_df = pd.DataFrame(model.history.history)
+loss_df.plot()
+
 X_test1=Scaler.transform(X_test)
 model.evaluate(X_test1,y_test)
 
