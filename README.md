@@ -44,10 +44,10 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-<br>
+
 ### Name: A.J.PRANAV
 ### Register Number: 212222230107
-<br>
+
 
 ```
 from google.colab import auth
